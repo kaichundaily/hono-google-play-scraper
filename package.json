@@ -1,0 +1,16 @@
+{
+  "name": "hono-google-play-scraper",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "@mradex77/google-play-scraper": "^1.6.0",
+    "hono": "^4.13.16"
+  },
+  "devDependencies": {
+    "wrangler": "^4.110.0"
+  }
+}
